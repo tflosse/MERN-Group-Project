@@ -2,6 +2,11 @@
 
 App Description
 
+#### Team
+- Andrew Culhane
+- Jim Chen
+- Nick diPreta
+- Tamara Flosse
 ​ 
 ![Add Image Here]()
 
