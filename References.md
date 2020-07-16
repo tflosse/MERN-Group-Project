@@ -6,6 +6,7 @@
 userSchema = {
     {
         username: { type: String, required: true},
+        password: { type: String, required: true},
         email: String,
         posts: [{
             ref: "Post",
@@ -60,7 +61,23 @@ commentSchema = {
 }
 ```
 
-### URLs
+### Controller Routes
 
-### Routes
+| Type | URL | Model & Description | 
+| :---: | :---: | :---: |
+| POST - Create | **/newuser** | Create a new user |
+| GET - Find | **/login** | Find and validate user credentials  |
+| GET - FindMany | **/dash** | Render most recents/popular *(front-end toggle)* |
+| POST - Create | **/post** | Create a new post |
+| PUT - FindByIdAndUpdate | **/edit** | Edit post *(should include user validation)* |
+| GET - FindById | **/comments** | ***Find post*** and render all comments |
+| DELETE - FindByIdAndDelete | **/** | Delete post *(should include user validation)* |
+| PUT - FindByIdAndUpdate | **/** | **Up or down-vote** post |
+| POST - Create | **/** | Add a new comment |
+| DELETE - FindByIdAndDelete| **/** | ***Find comment*** and delete |
+| PUT - FindByIdAndUpdate | **/account** | Change user credentials *(should include user validation)* |
+| - | **/** | Other |
+
+
+### URLs
 
