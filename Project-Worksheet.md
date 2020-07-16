@@ -7,6 +7,8 @@ App Description
 - Jim Chen
 - Nick diPreta
 - Tamara Flosse
+> Squad lead: Kenny
+
 ​ 
 ![Add Image Here]()
 
