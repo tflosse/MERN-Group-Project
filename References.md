@@ -76,7 +76,7 @@ commentSchema = {
 | POST - Create | **/** | Add a new comment |
 | DELETE - FindByIdAndDelete| **/** | ***Find comment*** and delete |
 | PUT - FindByIdAndUpdate | **/account** | Change user credentials *(should include user validation)* |
-| - | **/** | Other |
+| OTHER - | **/** | *Table-template* |
 
 
 ### URLs

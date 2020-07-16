@@ -12,9 +12,9 @@
 | server.js and DB connection setup | server.js, connection.js |  |  |
 | Produce seedData | seedData.js |  |  |
 | Code for `run(seed)` | seedItems.js |  |  |
-| Backend Models, Schemas + Routes |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Backend Models, Schemas | models | Tam |  |
+| Server Routes | controllers |  |  |
+| Heroku & MongoDB Atlas deploy |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
