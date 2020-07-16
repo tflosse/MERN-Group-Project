@@ -2,6 +2,8 @@
 
 App Description
 
+![giphy](https://media3.giphy.com/media/HUplkVCPY7jTW/giphy.gif)
+
 #### Team
 - Andrew Culhane
 - Jim Chen
