@@ -119,6 +119,16 @@ Refer to: [Team-Planning](https://github.com/tflosse/MERN-Group-Project/blob/mas
 - User Profile Info
     - Edit options
 
+##### *And then some...*
+```
+- Detailed forms: added fields and ability to include video and images
+- User Information stored
+- Store cookies (have user remain logged in )
+- Demographic information on who likes what ideas
+- Push notifications
+- Live commenting
+```
+
 ## Timeframes
 
 Unless otherwise noted, time is listed in hours:
