@@ -54,12 +54,18 @@ This App aims to provide innovators, developers, and creators alike a communicat
 ### Theme & Fonts
 ##### Brights:
 ![Brights](https://i.imgur.com/L96Qc8K.png)
+Corrected for accessibility:
+![Corrected](https://i.imgur.com/cEDA3lK.png)
 
 ##### Darks:
 ![Darks](https://i.imgur.com/AZLSK6z.png)
+Corrected for accessibility:
+![Corrected](https://i.imgur.com/4PZhzy1.png)
 
 ##### Blues:
 ![Blues](https://i.imgur.com/fF8yKPZ.png)
+Corrected for accessibility:
+![Corrected](https://i.imgur.com/fJ3h3SX.png)
 
 #### Fonts
 ***Pairing 1:***
@@ -244,8 +250,7 @@ Functionality Details to be listed below...
 ## Additional Libraries
 
 - Styled-Components
-- Material.io
-- Bootstrap
+- Framer Motion
 - Animé
 
 ## Code Snippet
