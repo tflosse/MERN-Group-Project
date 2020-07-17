@@ -144,7 +144,7 @@ Unless otherwise noted, time is listed in hours:
 | Create Schemas and Models | H | Tam | 1 | 1 |
 | Write Basic Ratoures and corresponding URLs | H | Tam | 1 | 1 |
 | Draft React Architecture | H | Tam | 30min. | 30min. |
-| List MVP and Post-MVP features based on team discussion | H | Tam | IC | IC |
+| List MVP and Post-MVP features based on team discussion | H | Tam | 1 | 45min. |
 
 **DURING**
 | Component | Priority | Team Member | Estimated Time | Actual Time |

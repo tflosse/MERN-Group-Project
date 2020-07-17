@@ -8,7 +8,7 @@
 | Agree on functionalities | Worksheet | ALL | C |
 | Wireframes & Styling Samples | Worksheet | Tam | C |
 | Update Markdown with Route Maps | Worksheet | Tam | C |
-| React Architecture + Routes | Worksheet | Tam | INC |
+| React Architecture + Routes | Worksheet | Tam | C |
 | server.js and DB connection setup | server.js, connection.js |  |  |
 | Produce seedData | seedData.js |  |  |
 | Code for `run(seed)` | seedItems.js |  |  |
