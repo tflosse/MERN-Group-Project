@@ -21,6 +21,6 @@
 
 **Nick diPreta**
 *Javascript Ninja*
-> Desc. here
+> I am a full-stack software engineer and Cornell University Alumnus. For this Id8 project, I will focus on the back-end and implemented user log in functionality. Lookign forward to many more Zoom meetings and exploring the latest tech trends.
 
-![Pic]()
+![Pic](https://media-exp1.licdn.com/dms/image/C4E03AQFZbWHjRmyLPg/profile-displayphoto-shrink_200_200/0?e=1600300800&v=beta&t=ccELMCcLXFSbB4ImuPLswqnB3ATdndiVFZw2y6AgL0A)

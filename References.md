@@ -90,6 +90,12 @@ messageSchema = {
 
 ### Controller Routes
 
+## (Tables below will be modified to match routes in illustration)
+
+![Login](https://i.imgur.com/qg3OONT.png)
+![Dashboard](https://i.imgur.com/atYgdDz.png)
+![Inbox](https://i.imgur.com/hsCwoNw.png)
+
 | Type | URL | Model & Description | 
 | --- | :---: | :---: |
 | POST - Create | **/newuser** | Create an account |

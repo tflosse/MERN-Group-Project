@@ -47,9 +47,6 @@ This App aims to provide innovators, developers, and creators alike a communicat
 ![Tablet](https://i.imgur.com/d5vYBqd.png)
 ![Desktop](https://i.imgur.com/qaBDMd5.png)
 
-<!-- ![Routes Map]()
-
-![React architecture]() -->
 
 ### Theme & Fonts
 ##### Brights:
@@ -182,28 +179,9 @@ Refer to [References](https://github.com/tflosse/MERN-Group-Project/blob/master/
 
 #### Routes and Descriptions
 
-##### MVP:
-| Type | URL | Model & Description | 
-| --- | :---: | :---: |
-| POST - Create | **/newuser** | Create an account |
-| GET - Find | **/login/:userId** | Find and validate user credentials  |
-| GET - FindMany | **/dash/:userId** | Render most recents/popular *(front-end toggle)* |
-| POST - Create | **/create** | Create a new post |
-| PUT - FindByIdAndUpdate | **/edit/:id** | Edit post *(should include user validation)* |
-| GET - FindById | **/comments/:id** | ***Find idea post*** and render all comments |
-| DELETE - FindByIdAndDelete | **/** | Delete post *(should include user validation)* |
-| PUT - FindByIdAndUpdate | **/:id** | **Up or down-vote** post |
-| POST - Create | **/** | Add a new comment |
-| DELETE - FindByIdAndDelete| **/** | ***Find comment*** and delete |
-| PUT - FindByIdAndUpdate | **/account/:userId** | Change user credentials *(should include user validation)* |
+Refer to References link above for details.
 
-##### Post-MVP:
-| Type | URL | Model & Description | 
-| --- | :---: | :---: |
-| POST - Create | **/message** | Send a message to a user referencing an idea |
-| GET - FindMany | **/thread/:senderId** | Gets all messages between two users |
-| GET - Find | **/inbox** | Get all messages |
-| DELETE - FindByIdAndDelete | **/** | Delete a message in a thread |
+![Routes](https://i.imgur.com/3J2IQJB.png)
 
 External APIs *(if necessary)*:
 - This API [here]()
