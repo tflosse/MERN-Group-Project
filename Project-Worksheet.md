@@ -15,6 +15,15 @@ This App aims to provide innovators, developers, and creators alike a communicat
 > Squad lead: Kenny​ 
 
 
+## Project Links
+
+- [Github Repo](https://github.com/tflosse/MERN-Group-Project)
+
+- [Heroku]()
+
+- [Website]()
+
+
 ## User Stories
 
 > Simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.
@@ -38,15 +47,6 @@ This App aims to provide innovators, developers, and creators alike a communicat
 - **Startup Incubator:** Source new business and development opportunities.
 - **Investor:** Find new investment opportunities.
 - **Recruiter:** Find new talent.
-
-
-## Project Links
-
-- [Github Repo](https://github.com/tflosse/MERN-Group-Project)
-
-- [Heroku]()
-
-- [Website]()
 
 
 ## Wireframes
