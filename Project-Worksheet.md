@@ -1,18 +1,10 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project Worksheet
-
+# Project Worksheet
 
 ## Project Description
 
 This App aims to provide innovators, developers, and creators alike a communication platform, where they can post, read, and comment on various ideas, and build new relationships over common interests and potential future ventures.
 
 ![giphy](https://media3.giphy.com/media/HUplkVCPY7jTW/giphy.gif)
-
-#### Team
-- Andrew Culhane
-- Jim Chen
-- Nick diPreta
-- Tamara Flosse
-> Squad lead: Kenny​ 
 
 
 ## Project Links
@@ -258,74 +250,21 @@ Functionality Details to be listed below...
 
 ## Code Snippet
 
-**All Snippets below are examples from a previous project**
-Used states to bypass an issue with data type, and useEffect to make the API call when details page loads:
+Route that used all three (user, post, and comment) models:
 
 ```js
-function MemberDetails(props) {
 
-const [memberDetails, updateMemberDetails]= useState({})
-const [memberRole, setMemberRole]= useState({})
-useEffect(() => {
-    const memberApiCall = async () => {
-      const res = await fetch(`https://api.propublica.org/congress/v1/members/${props.match.params.id}.json`,
-      {
-        dataType: "json",
-        headers: { "X-API-Key": "ZuPHJPB5SdYllQS7KY4cAVoLY6mdboxoc3nZLOcE" }
-      })
-      const json = await res.json()
-      let resultsObject = json.results[0]
-      let role = json.results[0].roles[0]
-      updateMemberDetails(resultsObject)
-      setMemberRole(role)
-    }
-    memberApiCall()
-  }, []); 
-  return (
-      <div className="member-info">
-        <h3 id="member-name">{memberRole.short_title} {memberDetails.first_name} {memberDetails.last_name}</h3>
-        <p>{currentParty(memberDetails.current_party)}<br />
-        In role since: {memberRole.start_date}<br />
-        Next election: {memberRole.next_election}</p>
-      </div>
-    )
-};
 ```
 
 Used states to show/hide details sections:
 
 ```js
-    const [billsButton, setBillsButton]= useState('display')
-    const [billsDiv, setBillsDiv]= useState('hidden')
-    const handleShow = () => {
-        console.log('Expanding Bills Section');
-        billsApiCall()
-        setBillsButton('hidden')
-        setBillsDiv('shown')
-    }; 
-    const handleHide = () => {
-        console.log('Hiding Bills Section')
-        setBillsButton('display')
-        setBillsDiv('hidden')
-    };
-    return (
-      <div className="member-bills">
-          <button className={`${billsButton}`} onClick={handleShow}>Show Sponsored Bills</button>
-          <button className={`${billsDiv}`} onClick={handleHide}>Hide Sponsored Bills</button>
-      </div>
-    )
+
 ```
 
 Used ternary to avoid rendering undefined elements:
 
 ```js
-{stateResults?
-              <SearchResults {...routerProps} 
-                 stateResults={stateResults}
-                 stateSearch={stateSearch}/>:<h4>{"Please enter a valid two-letter state abbriviation."}</h4>}
 
-(...)
-
-<p className="bill-summary">{bill.summary? `${bill.summary}`:"Bill Summary Unavailable"}</p>
 ```
 
