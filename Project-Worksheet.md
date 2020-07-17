@@ -58,13 +58,13 @@ This App aims to provide innovators, developers, and creators alike a communicat
 ![React architecture]()
 
 ### Theme & Fonts
-***Brights:***
+##### Brights:
 ![Brights](https://i.imgur.com/L96Qc8K.png)
 
-***Darks:***
+##### Darks:
 ![Darks](https://i.imgur.com/AZLSK6z.png)
 
-***Blues:***
+##### Blues:
 ![Blues](https://i.imgur.com/fF8yKPZ.png)
 
 #### Fonts
