@@ -53,9 +53,9 @@ This App aims to provide innovators, developers, and creators alike a communicat
 
 ![Wireframes]()
 
-![Routes Map]()
+<!-- ![Routes Map]()
 
-![React architecture]()
+![React architecture]() -->
 
 ### Theme & Fonts
 ##### Brights:
@@ -96,17 +96,28 @@ font-family: 'Source Code Pro', monospace;
 
 ## `MVP/PostMVP`
 
+Refer to: [Team-Planning](https://github.com/tflosse/MERN-Group-Project/blob/master/Team-Planning.md)
+
 #### MVP OBJECTIVES
 
-- Feature
-- Feature
-- Feature
+- Renders all posts
+    - Includes: Recent vs. Popular toggle
+- Up and down-votes render a counter with corresponding styling
+- Create New Post
+- Renders one post with all comments
+- Add/Delete Comment
+- Users can:
+    - Log in
+    - Create an Account
 
-#### PostMVP OBJECTIVES
+#### Post-MVP OBJECTIVES
 
-- Feature
-- Feature
-- Feature
+- Ind. post have a messaging icon that links to message form
+- Inbox tab with all messages
+    - Includes: All vs. Unread Toggle
+- Threads between two users
+- User Profile Info
+    - Edit options
 
 ## Timeframes
 
@@ -120,7 +131,7 @@ Unless otherwise noted, time is listed in hours:
 | Update Worksheets for Project Approval | H | Tam | 1 | 1 |
 | Create Schemas and Models | H | Tam | 1 | 1 |
 | Write Basic Ratoures and corresponding URLs | H | Tam | 1 | 1 |
-| Draft React Architecture | H | Tam | IC | IC |
+| Draft React Architecture | H | Tam | 30min. | 30min. |
 | List MVP and Post-MVP features based on team discussion | H | Tam | IC | IC |
 
 **DURING**
@@ -150,10 +161,8 @@ Models:
 - comment
 - message
 ```
+Refer to [References](https://github.com/tflosse/MERN-Group-Project/blob/master/References.md) for detailed `Schemas`.
 
-```js
-ApiURLs:
-```
 #### Routes and Descriptions
 
 ##### MVP:
@@ -185,33 +194,44 @@ External APIs *(if necessary)*:
 
 #### Front-end Routes:
 
-`Login page`
+- `Login page`
+- `UserForm`
 
-`Homepage`: Search by Keyword
-`Dashboard`: All ideas posts (Recent & Upvoted)
-`Post`: Single post with details and comments
-`Settings`: User page & account information
+- `Homepage`: Search by Keyword
+- `Dashboard`: All ideas posts (Recent & Upvoted)
+- `Post`: Single post with details and comments
+- `Settings`: User page & account information
+
+- `PostForm`
+- `CommentForm`
 
 ***Later:***
-`Inbox`: All private messages
-`Thread`: All messages between two specific users
-`Dashboard`: Sort by - *this week, month, year*
+- `Inbox`: All private messages
+- `Thread`: All messages between two specific users
+- `MessageForm`
+- `Dashboard`: Sort by - *this week, month, year*
+- `Account Info`
+
+Functionality Details to be listed below...
 
 ##### Components and Descriptions:
 
-| Component | Description | 
+| Component | Functionalities | 
 | --- | :---: |  
-| Login Form |  |
-| App |  | 
-| Layout |  | 
+| Login Form | Create account (post) or log in (get) |
+| App | N/A | 
+| Layout | N/A | 
 | Nav | Clickable links |
-| Footer |  |
-| Home |  |
-| Posts |  |
+| Footer | N/A |
+| Home | Recont vs. Popular toggle |
+| Posts | Up/Down-vote counter |
+| Post Form |  | 
 | Post |  |
 | Comments |  |
+| Comment Form | |
 | Comment |  |
 | Inbox |  |
+| Message Form |  |
 | Thread |  |
 | User Profile |  |
 | Settings |  |
@@ -222,8 +242,7 @@ External APIs *(if necessary)*:
 - Styled-Components
 - Material.io
 - Bootstrap
--
--
+- Animé
 
 ## Code Snippet
 

@@ -113,6 +113,3 @@ messageSchema = {
 | GET - Find | **/inbox** | Get all messages |
 | DELETE - FindByIdAndDelete | **/** | Delete a message in a thread |
 
-
-### URLs
-
