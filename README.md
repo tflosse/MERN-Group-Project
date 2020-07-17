@@ -57,6 +57,13 @@ This App aims to provide innovators, developers, and creators alike a communicat
 Corrected for accessibility:
 ![Corrected](https://i.imgur.com/cEDA3lK.png)
 
+```js
+black-ish: rgb(29,28,23)
+teal: rgb(65,186,178)
+orange: rgb(243,168,40)
+off-white: rgb(247,247,248)
+```
+
 ##### Darks:
 ![Darks](https://i.imgur.com/AZLSK6z.png)
 Corrected for accessibility:
@@ -181,7 +188,7 @@ Refer to [References](https://github.com/tflosse/MERN-Group-Project/blob/master/
 | POST - Create | **/newuser** | Create an account |
 | GET - Find | **/login/:userId** | Find and validate user credentials  |
 | GET - FindMany | **/dash/:userId** | Render most recents/popular *(front-end toggle)* |
-| POST - Create | **/post** | Create a new post |
+| POST - Create | **/create** | Create a new post |
 | PUT - FindByIdAndUpdate | **/edit/:id** | Edit post *(should include user validation)* |
 | GET - FindById | **/comments/:id** | ***Find idea post*** and render all comments |
 | DELETE - FindByIdAndDelete | **/** | Delete post *(should include user validation)* |
