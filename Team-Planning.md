@@ -18,3 +18,17 @@
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+
+### Post-MVP
+
+| What? | Where? | Who? | Done? |
+| :---: | :---: | :---: | :---: |
+| *Task* | *File(s)* | *Member* | *Status* |
+| Add message Button to Post Component | Idea.jsx |  |  |
+| Contact Form - "Message this user" | MsgForm.jsx |  |  |
+| Inbox Component | Inbox.jsx |  |  |
+| Thread Component | Thread.jsx |  |  |
+|  |  |  |  |
