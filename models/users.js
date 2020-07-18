@@ -12,7 +12,8 @@ const userSchema = new mongoose.Schema(
         }],
         saved: [{
             ref: "Idea",
-            type: mongoose.Schema.Types.ObjectId
+            type: mongoose.Schema.Types.ObjectId,
+            default: null
         }]
     },
 );
